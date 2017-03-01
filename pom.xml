@@ -84,6 +84,14 @@
             <version>2.3</version>
         </dependency>
 
+        <!--  sqlserver 2008 jdbc jar-->
+
+        <dependency>
+            <groupId>net.sourceforge.jtds</groupId>
+            <artifactId>jtds</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+
 
     </dependencies>
 

@@ -173,6 +173,7 @@ public class WeixinUtil
         String secret = "2972a0f9b1cb18c35af96d732bbe7b9d";
 
         String requestUrl = request.getRequestURL().toString();
+        System.out.println("requestUrl:"+requestUrl);
         String access_token = "";
         String jsapi_ticket = "";
         String timestamp = Long.toString(System.currentTimeMillis() / 1000); // 必填，生成签名的时间戳
